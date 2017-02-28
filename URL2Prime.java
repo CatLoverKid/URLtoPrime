@@ -10,8 +10,6 @@ class URL2Prime{
 	BufferedReader systemIn = new BufferedReader(new InputStreamReader(System.in));
     inputString = args[0];
 	for(int i = 0; i < inputString.length(); i++){tempASCIIResult += (int) inputString.charAt(i);}
-
-	System.out.println(primeString);
       for(int i = 0; i < tempASCIIResult; i ++){
         primeString = systemIn.readLine();
       }
